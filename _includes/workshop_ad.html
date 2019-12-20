@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       {% unless site.title == "Workshop Title" or site.title == "" %}
-      <h2>{{site.title}}<img align=right src=https://www.qcif.edu.au/images/logo.png><br><img align=right src=https://usqassist.custhelp.com/euf/generated/optimized/1573833986/themes/usq2018/images/usq-logo.png></h2>
+      <h2>{{site.title}}<img align=right src=https://www.qcif.edu.au/images/logo.png><br>&nbsp;<img align=right src=https://usqassist.custhelp.com/euf/generated/optimized/1573833986/themes/usq2018/images/usq-logo.png></h2>
 </h2>
       {% endunless %}
       <h2>{{page.venue}}</h2>
@@ -27,7 +27,7 @@
           </p>
           {% if page.helper %}
           <p>
-          <strong>Helpers1:</strong>
+          <strong>Helpers:</strong>
           {{page.helper | join: ', ' %}}
           </p>
           {% endif %}
