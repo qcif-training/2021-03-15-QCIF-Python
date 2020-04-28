@@ -158,7 +158,7 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must provide their own computer with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) and have access to a stable internet connection sufficient for videoconferencing. They should have a few specific software packages installed (listed <a href="#setup">below</a>).</p>
+  <strong>Requirements:</strong> Participants must provide their own computer with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) and have access to a stable internet connection sufficient for videoconferencing. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
 {% comment %}
