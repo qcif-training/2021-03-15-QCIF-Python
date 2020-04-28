@@ -60,30 +60,6 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
-{% if page.eventbrite %}
-  <div id="eventbrite-widget-container-{{page.eventbrite}}"></div>
-
-<script src="https://www.eventbrite.com.au/static/widgets/eb_widgets.js"></script>
-
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: '{{page.eventbrite}}',
-        iframeContainerId: 'eventbrite-widget-container-{{page.eventbrite}}',
-
-        // Optional
-        iframeContainerHeight: 225,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });
-</script>
-{% endif %}
-
-
 
 <h2 id="general">General Information</h2>
 
